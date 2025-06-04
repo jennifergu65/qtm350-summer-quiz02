@@ -17,11 +17,10 @@ website:
 
 format:
   html:
-    theme:
-      - minty
-      - brand
+    theme: minty
     css: styles.css
     toc: true
+    code-fold: true
 
 
 
