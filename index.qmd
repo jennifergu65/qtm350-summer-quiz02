@@ -1,0 +1,12 @@
+---
+title: "Gapminder Dataset Analysis"
+---
+
+The Gapminder dataset contains social and economic data for 142 countries across the globe, from the years 1952 to 2007.
+
+Links to Other Pages:
+
+- [Life Expectancy and GDP per Capita](life-gdp.qmd)
+- [Life Expectancy and Population](life-population.qmd)
+- [Country Analysis](country-qmd)
+- [About](about.qmd)

@@ -1,0 +1,22 @@
+---
+title: "Life Expectancy and Population"
+---
+This page details the relationship between Life Expectancy and Population (in millions) for 142 countries from 1952 to 2007.
+
+```{python}
+#| echo: true
+#| eval: true
+#| fig-cap: "Life Expectancy vs. Population"
+
+import matplotlib.pyplot as plt
+import pandas as pd
+
+df = pd.read_csv("gapminder.csv")
+
+plt.scatter(df['population_millions'], df['life_expectancy'], alpha=0.6)
+plt.xlabel('Population in Millions')
+plt.ylabel('Life Expectancy')
+plt.title('Life Expectancy vs. Population in Millions')
+plt.tight_layout()
+plt.show()
+```
